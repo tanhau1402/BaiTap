@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aquamarine;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.main{
+    background-color: silver;
+}
+.main-row-item{
+    display: inline-block;
+    text-align: center;
+}
+.main-row-item-1{
+   width: calc(100%/3);
+  margin-right: -4px;
+  height: 300px;
+}
+.main-row-item-1--left{
+    background-color: beige;
+    height: 300px;
+}
+.main-row-item-1--center{
+    background-color: black;
+    height: 300px;
+}
+.main-row-item-1--right{
+    background-color: blue;
+    height: 300px;
+}
+.main-row-item-1--left--top{
+    background-color: aliceblue;
+    
+}
+.main-row-item-1--left--bottom{
+    background-color: black;
+}
